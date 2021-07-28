@@ -15,7 +15,7 @@ body {
 }
 
 .wrapper {
-  height: 1300px;
+  height: 1400px;
   width: 800px;
   margin-left: 300px;
   box-shadow: 15px 8px 30px #968f8f;
@@ -202,7 +202,7 @@ body {
 .wrapper .content .content-left {
   position: absolute;
   width: 250px;
-  height: 1100px;
+  height: 1200px;
   background-color: #5b4f41;
 }
 
@@ -215,7 +215,7 @@ body {
 }
 
 .wrapper .content .content-left .content-left-contact td {
-  width: 95px;
+  width: 100px;
 }
 
 .wrapper .content .content-left .content-left-reference td {
@@ -265,7 +265,7 @@ body {
   left: 250px;
   background-color: #d3cfc6;
   width: 550px;
-  height: 1100px;
+  height: 1200px;
   font-size: 16px;
 }
 
@@ -355,6 +355,7 @@ body {
 
 .wrapper .content .content-right .content-right-exp .text-exp {
   padding-left: 10px;
+  padding-right: 30px;
   display: flex;
   padding-top: 10px;
 }
@@ -382,6 +383,10 @@ body {
 
 .wrapper .content .content-right .content-right-exp .text-exp .d3 {
   margin-top: 52px;
+}
+
+.wrapper .content .content-right .content-right-exp .text-exp .d4 {
+  margin-top: 53px;
 }
 
 .wrapper .content .content-right .content-right-exp .text-exp .text-left {

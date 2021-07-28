@@ -16,7 +16,7 @@ body {
   background-color: #585c68;
 }
 .wrapper {
-  height: 1300px;
+  height: 1400px;
   width: 800px;
   margin-left: 300px;
   box-shadow: 15px 8px 30px rgb(150, 143, 143);
@@ -185,7 +185,7 @@ body {
         }
       }
       .content-left-contact td {
-        width: 95px;
+        width: 100px;
       }
       .content-left-reference td {
         width: 200px;
@@ -211,7 +211,7 @@ body {
       }
       position: absolute;
       width: 250px;
-      height: 1100px;
+      height: 1200px;
       background-color: $color-content-left;
       .text-left {
         font-size: 12px;
@@ -223,6 +223,7 @@ body {
         font-size: 12px;
         color: $color4;
         text-align: right;
+        
       }
       .title-left {
         padding-top: 35px;
@@ -235,7 +236,7 @@ body {
       left: 250px;
       background-color: $color-chuphai;
       width: 550px;
-      height: 1100px;
+      height: 1200px;
       font-size: 16px;
       .content-right-intro {
         padding-left: 20px;
@@ -307,6 +308,7 @@ body {
         padding-left: 20px;
         .text-exp {
           padding-left: 10px;
+          padding-right: 30px;
           display: flex;
           padding-top: 10px;
           table {
@@ -327,6 +329,9 @@ body {
           }
           .d3 {
             margin-top: 52px;
+          }
+          .d4 {
+            margin-top: 53px;
           }
           .text-left {
             border-right: 2px solid black;
