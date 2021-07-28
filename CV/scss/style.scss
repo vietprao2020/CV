@@ -16,7 +16,7 @@ body {
   background-color: #585c68;
 }
 .wrapper {
-  height: 1400px;
+  height: 1450px;
   width: 800px;
   margin-left: 300px;
   box-shadow: 15px 8px 30px rgb(150, 143, 143);
@@ -211,7 +211,7 @@ body {
       }
       position: absolute;
       width: 250px;
-      height: 1200px;
+      height: 1250px;
       background-color: $color-content-left;
       .text-left {
         font-size: 12px;
@@ -236,7 +236,7 @@ body {
       left: 250px;
       background-color: $color-chuphai;
       width: 550px;
-      height: 1200px;
+      height: 1250px;
       font-size: 16px;
       .content-right-intro {
         padding-left: 20px;
@@ -311,9 +311,7 @@ body {
           padding-right: 30px;
           display: flex;
           padding-top: 10px;
-          table {
-            
-          }
+         
           .text-left {text-transform: uppercase;
             width: 100px;
           }
