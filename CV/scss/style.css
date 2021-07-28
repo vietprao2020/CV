@@ -6,7 +6,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,7 +19,8 @@ body {
   height: 1450px;
   width: 800px;
   margin-left: 300px;
-  box-shadow: 15px 8px 30px #968f8f;
+  -webkit-box-shadow: 15px 8px 30px #968f8f;
+          box-shadow: 15px 8px 30px #968f8f;
   margin-bottom: 100px;
 }
 
@@ -121,6 +123,8 @@ body {
 }
 
 .wrapper .banner .frame-name .frame-bot .rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   left: 16px;
   position: absolute;
@@ -330,6 +334,8 @@ body {
 }
 
 .wrapper .content .content-right .content-right-sfskill .text-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 8px;
 }
@@ -356,6 +362,8 @@ body {
 .wrapper .content .content-right .content-right-exp .text-exp {
   padding-left: 10px;
   padding-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 10px;
 }
@@ -435,8 +443,11 @@ body {
 
 .straight-line-left {
   padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .straight-line-left .left {
@@ -460,8 +471,10 @@ body {
   width: 10px;
   height: 10px;
   background-color: #5b4f41;
-  transform: rotate(-45deg);
-  transform-origin: 0 100%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
   border: 1px solid white;
 }
 
@@ -474,8 +487,10 @@ body {
   width: 8px;
   height: 8px;
   background: black;
-  transform: rotate(-45deg);
-  transform-origin: 0 100%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
   margin-right: 6px;
 }
 
@@ -483,8 +498,10 @@ body {
   width: 8px;
   height: 8px;
   background: #8d7272;
-  transform: rotate(-45deg);
-  transform-origin: 0 100%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
   margin-right: 6px;
 }
 
@@ -492,9 +509,12 @@ body {
   width: 7px;
   height: 7px;
   background: #d3cfc6;
-  transform: rotate(-45deg);
-  transform-origin: 0 100%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
   margin-right: 6px;
   margin-left: 6px;
   border: 1px solid black;
 }
+/*# sourceMappingURL=style.css.map */
