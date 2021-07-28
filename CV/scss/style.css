@@ -360,15 +360,13 @@ body {
   padding-top: 10px;
 }
 
-.wrapper .content .content-right .content-right-exp .text-exp table {
-  text-transform: uppercase;
-}
-
 .wrapper .content .content-right .content-right-exp .text-exp .text-left {
+  text-transform: uppercase;
   width: 100px;
 }
 
 .wrapper .content .content-right .content-right-exp .text-exp .text-right {
+  text-transform: uppercase;
   width: 375px;
   font-weight: bold;
 }
@@ -400,6 +398,12 @@ body {
 
 .wrapper .content .content-right .content-right-exp .text-exp .text {
   padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.wrapper .content .content-right .content-right-exp .text-exp a {
+  text-decoration: none;
+  color: #00098a;
 }
 
 .wrapper .content .content-right hr {

@@ -312,12 +312,12 @@ body {
           display: flex;
           padding-top: 10px;
           table {
-            text-transform: uppercase;
+            
           }
-          .text-left {
+          .text-left {text-transform: uppercase;
             width: 100px;
           }
-          .text-right {
+          .text-right {text-transform: uppercase;
             width: 375px;
             font-weight: bold;
           }
@@ -341,7 +341,11 @@ body {
             padding-left: 10px;
           }
           .text {
-            padding-left: 10px;
+            padding-left: 10px;text-transform: uppercase;
+          }
+          a{
+            text-decoration: none;
+            color: rgb(0, 9, 138)  ;
           }
         }
       }
